@@ -2,7 +2,7 @@
 
 This application is a homework assignment for the pure Node.js course at pirple.thinkific.com
 
-The application is a HTTP/HTTPS server that accepts requests on /hello url path and answers with a simple JSON greeting. The server accepts only POST requests on /hello.
+The application is a HTTP/HTTPS server that accepts requests on /hello url path and answers with a simple JSON greeting. The server accepts only POST requests on /hello. The application tries to use all available CPUs by spawning several instances of itself (using Node.js `cluster` module).
 
 ## Configuration
 
